@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 2f154453bbbe499e6e0497e4ecda4e8cf0f12a07
 Test First Ruby -- RSpec 3 Edition
 ==========
 
@@ -52,6 +55,9 @@ Basically, this is "error-driven development"... you'll keep running tests, hitt
 ### Credit
 
 This is forked from [https://github.com/alexch/learn_ruby](https://github.com/alexch/learn_ruby), its original creator.
+<<<<<<< HEAD
 =======
 # rails_project_1
 >>>>>>> 50c4b39e4eae9730a95d801b770b5a74cc1aefc5
+=======
+>>>>>>> 2f154453bbbe499e6e0497e4ecda4e8cf0f12a07
