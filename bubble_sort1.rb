@@ -3,7 +3,7 @@ puts "unsorted: #{array1}"
 array2 = [4,3,78,2,0,2]
 puts "unsorted: #{array2}"
 
-def bubble_sort!(the_array)
+def bubble_sort(the_array)
   index = 0
   switched = false;
   until (index == the_array.length-1) do
@@ -22,7 +22,7 @@ def bubble_sort!(the_array)
   end
   the_array
 end
-array1 = bubble_sort!(array1)
+array1 = bubble_sort(array1)
 puts "sorted: #{array1}"
-array2 = bubble_sort!(array2)
+array2 = bubble_sort(array2)
 puts "sorted: #{array2}"
