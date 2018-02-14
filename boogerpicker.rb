@@ -13,11 +13,20 @@ def pick(numbers)
    sell_day2 = numbers.index(sell2)
    buy_array = numbers[0..sell_day2]
    buy2 = buy_array.min
-   buy_day2 = numbers.index(buy2)
-   if (sell1 - buy1 > sell2 - buy2) then
+   if (numbers.max == numbers[0]) then
+     special_case = numbers.unshift
+     buy_day2 = special_case.index(buy2)
+   else
+     buy_day2 = numbers.index(buy2)
+   end
+   if ((sell1 - buy1) > (sell2 - buy2)) then
      puts("[#{buy_day1},#{sell_day1}]")
    else
      puts ("[#{buy_day2},#{sell_day2}]")
    end
 end
 pick(list)
+
+
+# known bug, if the largest number is listed first, and listed later in the buy_array
+# it somehow ends up null and returns an error
