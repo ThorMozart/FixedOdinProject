@@ -1,0 +1,37 @@
+img {
+  float: left;
+  height: auto;
+  width: 168px;
+}
+
+span {
+  float: right;
+  width:168px;
+  text-align:left;
+  height:95px;
+  font-size:14px;
+}
+
+h4 {
+  color:grey;
+}
+
+a {
+  margin-top: 15px;
+}
+
+.under {
+  margin-right: 600px;
+  float:left;
+}
+
+#vidhb {
+  width:auto;
+  float: left;
+}
+
+#navbarr {
+  width: auto;
+  float: right;
+  text-align: center;
+}
