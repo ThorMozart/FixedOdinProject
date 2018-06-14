@@ -1,0 +1,12 @@
+
+.ad {
+  background-color: yellow;
+  width: 80%;
+  position: relative;
+  left: 10%;
+  height: 500px;
+}
+
+p {
+  color: orange;
+}
