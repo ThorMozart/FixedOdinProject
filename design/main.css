@@ -1,0 +1,87 @@
+body{
+  background-color:maroon;
+  font: bold 20px 'Comfortaa';
+}
+
+li {
+  background:#555;
+  display:inline-block;
+  color:black;
+  width:182px;
+  height:182px;
+  color:white;
+  vertical-align: middle;
+  text-align:center;
+  float:left;
+}
+
+p {
+  font-size:25px;
+}
+
+.first{
+  width:auto;
+  height:auto;
+  position:absolute;
+  top:400px;
+  left:535px
+}
+.second{
+  width:auto;
+  position:absolute;
+  top:423px;
+  left:590px;
+}
+.input-holder {
+  height: 182px;
+  width:183px;
+  background:#555;
+  vertical-align: middle;
+  float:left;
+  text-align:center;
+}
+
+.left {
+  width:50%;
+  background-color:gray;
+  float:left;
+  font-size:30px;
+  height:500px;
+  text-align:center;
+}
+.right {
+  width:637px;
+  background-color:silver;
+  font-size:30px;
+  float:left;
+  height:500px;
+  text-align:center;
+}
+
+#top-logo {
+  margin:0;
+  width:182px;
+  height:182px;
+  background:#555;
+  display:inline-block;
+  float:left;
+}
+
+#menu {
+  list-style:none;
+}
+
+#topics {
+  border:5px solid white;
+  border-radius:5px;
+  background:#555;
+  width: 100px;
+  color:white;
+  text-align:center;
+}
+
+#latest  {
+  color: white;
+  background: black;
+  text-align:center;
+}
