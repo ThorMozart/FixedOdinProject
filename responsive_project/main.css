@@ -1,0 +1,85 @@
+header {
+  height:5%;
+  font-size: 12px;
+  line-height:250%;
+}
+
+
+header a {
+  color:gray;
+}
+
+header ul {
+  list-style-type: none;
+  text-decoration: none !important;
+}
+
+header li {
+  margin-left: 10px;
+}
+
+.left-menu {
+  float:left;
+  width:50%;
+  background-color:black;
+  height:5%;
+}
+
+.left-menu li {
+  display:inline;
+}
+
+.right-menu {
+  float:right;
+  width:50%;
+  padding:0 0 auto 0;
+  background-color:black;
+}
+
+.right-menu ul {
+  float:right;
+}
+
+.right-menu li {
+  display: inline;
+}
+
+.featured {
+  color:white;
+  clear:left;
+}
+
+#featured1 {
+  background-image: url(images/stock-vector-vector-circuit-board.jpg);
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  width: 60%;
+  height: 200px;
+  float:left;
+  display:inline-block;
+  text-align:center;
+}
+
+#featured2 {
+  background-image: url(images/stock-photo-making-great-decisions.jpg);
+  width:40%;
+  float:right;
+  height:100px;
+  box-sizing:border-box;
+  text-align:center;
+  display:inline-block;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+#featured3 {
+  background-image: url(images/stock-photo-man-and-robotic-machine.jpg);
+  width:40%;
+  float:right;
+  text-align:center;
+  height:100px;
+  box-sizing:border-box;
+  display:inline-block;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
