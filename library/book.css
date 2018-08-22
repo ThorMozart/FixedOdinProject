@@ -1,0 +1,21 @@
+.book {
+  border: solid;
+  border-radius: 8px;
+  border-width: 2px 10px 10px 2px;
+  width: auto;
+  display: inline-block;
+  margin: 10px;
+  padding:5px;
+}
+
+.newBook {
+  position:fixed;
+  width: 30%;
+  margin-left:35%;
+  top:0;
+  visibility: hidden;
+  border-width: 8px;
+  border:solid;
+  background-color: gray;
+  text-align: center;
+}
