@@ -1,0 +1,116 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Unlock';
+  text-align: center;
+  font-size: 80px;
+}
+
+p {
+  position: relative;
+  left: 0;
+  top: -75px;
+}
+
+.markbtn {
+  visibility: hidden;
+  position:relative;
+  width:auto;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.player {
+  width:auto;
+  min-width: 70px;
+  text-align:center;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cell {
+  border: solid;
+  border-color: black;
+  display: inline-block;
+  background-color: #eee;
+  margin:0px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 100px;
+  line-height:33.33%;
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.activePlayer {
+  border-color: #fff;
+  box-sizing:border-box;
+  border: solid;
+  border-width: 2px;
+}
+
+#cell0 {
+  border-width: 0px 5px 5px 0px;
+}
+
+#cell1 {
+  border-width: 0px 5px 5px 5px;
+}
+
+#cell2 {
+  border-width: 0px 0px 5px 5px;
+}
+#cell3 {
+  border-width: 5px 5px 5px 0px;
+}
+#cell4 {
+  border-width: 5px 5px 5px 5px;
+}
+
+#cell5 {
+  border-width: 5px 0px 5px 5px;
+}
+
+#cell6 {
+  border-width: 5px 5px 0px 0px;
+}
+
+#cell7 {
+  border-width: 5px 5px 0px 5px;
+}
+
+#cell8 {
+  border-width: 5px 0px 0px 5px;
+}
+
+#menu {
+  text-align: center;
+}
+
+#gameboard {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#playerList {
+  position:absolute;
+  border:solid;
+  border-color:gray;
+  border-width: 8px;
+  left:0;
+  top:25%;
+  width:auto;
+  min-width:70px;
+  height:auto;
+  min-height: 5px;
+}
